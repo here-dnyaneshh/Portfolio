@@ -1,0 +1,24 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Coming Soon">
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7e5f"/>
+      <stop offset="100%" stop-color="#feb47b"/>
+    </linearGradient>
+    <style>
+      .text {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 48px;
+        font-weight: bold;
+        fill: url(#gradient);
+        filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+      }
+      .background {
+        fill: #222;
+        rx: 10;
+        ry: 10;
+      }
+    </style>
+  </defs>
+  <rect class="background" width="300" height="100" />
+  <text class="text" x="50%" y="55%" dominant-baseline="middle" text-anchor="middle">Coming Soon</text>
+</svg>
